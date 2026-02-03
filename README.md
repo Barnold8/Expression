@@ -13,3 +13,13 @@ Simple math expressions evaluated in the terminal like
 or even 
 ``expression expression1.exp * expression2.exp``
 Allowing the programmer to write expressions in files and call reference them within other code as already evaluated statements
+
+# Ideas for myself
+
+Would be cool to allow the programmer to use the ∀ symbol or /forall to create a generator given some expression like 
+
+evens = ∀ x ∈ ℕ, x / 2 == 0 (AKA only even numbers)
+
+And then the developer can use this later to say evens[12]
+
+and it will return the 12th term in that generator (this is EXTREMELY ambitious but its a cool idea)
